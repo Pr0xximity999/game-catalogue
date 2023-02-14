@@ -1,11 +1,11 @@
 body{
-    background-color: #0B160D;
+    background-size: 100% 100%; 
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
 }
 p, a, h1, h2, li{
     font-family: sans-serif;
-    color: #FFFB00;
 }
 #maindiv{
     margin: 0 auto;
@@ -16,7 +16,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #4E2A0B;
+
 }
 header > div{
     margin-left: 2em;
@@ -24,11 +24,9 @@ header > div{
     column-gap: 2em;
 }
 .headergame{
-    background-color: #FF4702;
     padding: 1em;
 }
 main{
-    background-color: #4E2A0B;
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -40,15 +38,10 @@ main{
 }
 #tags{
     margin-top: 4em;
-    margin-left: 1em;
     margin-bottom: 2em;
 }
 .tag{
     padding: 1em;
-    background-color: #4E2A0B;
-}
-.title, .information, .images, .requirements, .revieuws{
-    background-color: #FF4702;
 }
 .title{
     padding-left: 1em;
@@ -65,4 +58,13 @@ main{
 }
 .images > img{
     width: 24%;
+}
+.requirements{
+    padding-left: 1em;
+}
+footer{
+    padding-left: 1em;
+}
+footer > div{
+    margin-bottom: 2em;
 }
