@@ -4,7 +4,10 @@ body{
     display: flex;
     flex-direction: column;
 }
-p, a, h1, h2, li{
+h1, h2{
+    font-size: 32px;
+}
+p, a, h1, h2, li, button{
     font-family: sans-serif;
 }
 #maindiv{
@@ -18,7 +21,7 @@ header{
     justify-content: space-between;
 
 }
-header > div{
+header > nav{
     margin-left: 2em;
     display: flex;
     column-gap: 2em;
